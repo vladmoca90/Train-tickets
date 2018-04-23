@@ -1,0 +1,1 @@
+stationsURL = http://trainticketmachine456.azurewebsites.net/api/stations/rdg;
