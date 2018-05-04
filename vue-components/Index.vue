@@ -1,17 +1,21 @@
 <template>
     <div id="app">
-        <headerComp />
+        <header />
+        <content />
+        <selectionButtons />
     </div>
 </template>
 <script>
-    import headerComp from 'headerComp.vue'
+import header from 'header.vue'
 
-    export default {
-        name: 'app',
-        components: {
-            headerComp,
-        },
-    }
+export default {
+    name: 'app',
+    components: {
+        header,
+        content,
+        selectionButtons,
+    },
+}
 </script>
 <style scoped>
 
