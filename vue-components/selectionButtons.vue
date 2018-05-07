@@ -1,18 +1,12 @@
 <template>
-    <div id="app">
-        <header />
-        <content />
-        <selectionButtons />
-    </div>
+    <selectionButtons></selectionButtons>
 </template>
 <script>
-import header from 'header.vue'
+import selectionButtons from 'selectionButtons.vue'
 
 export default {
     name: 'app',
     components: {
-        header,
-        content,
         selectionButtons,
     },
 }
