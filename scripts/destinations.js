@@ -107,3 +107,5 @@ var destinations = [
         name: 'Wokingham',
     },
 ];
+
+var stationsUrl = 'http://trainticketmachine456.azurewebsites.net/api/stations/rdg';
